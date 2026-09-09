@@ -1,4 +1,5 @@
 import { Mail, Phone, MapPin, Instagram, Linkedin, Facebook } from "lucide-react";
+import { Link } from "react-router-dom";
 import { NEXUDUS_MEMBER_LOGIN_URL } from "../config/nexudus";
 
 // Shared site footer, shown on every page (home + the embed pages).
@@ -23,24 +24,24 @@ const SiteFooter = () => (
           <h4 className="font-bold uppercase mb-4">Navigation</h4>
           <ul className="space-y-2 text-sm text-gray-600">
             <li>
-              <a href="/" className="hover:text-[#F5A623]">
+              <Link to="/" className="hover:text-[#F5A623]">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/ethos" className="hover:text-[#F5A623]">
+              <Link to="/ethos" className="hover:text-[#F5A623]">
                 Ethos
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/events" className="hover:text-[#F5A623]">
+              <Link to="/events" className="hover:text-[#F5A623]">
                 Events
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/bookings" className="hover:text-[#F5A623]">
+              <Link to="/bookings" className="hover:text-[#F5A623]">
                 Bookings
-              </a>
+              </Link>
             </li>
             <li>
               <a href={NEXUDUS_MEMBER_LOGIN_URL} className="hover:text-[#F5A623]">
@@ -48,9 +49,9 @@ const SiteFooter = () => (
               </a>
             </li>
             <li>
-              <a href="/join" className="hover:text-[#F5A623]">
+              <Link to="/join" className="hover:text-[#F5A623]">
                 Join
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

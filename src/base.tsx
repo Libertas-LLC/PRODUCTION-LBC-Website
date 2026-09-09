@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import SiteNav from "./components/SiteNav";
 import ContactModal from "./components/ContactModal";
 import SiteFooter from "./components/SiteFooter";
@@ -210,12 +211,12 @@ const LbcWebsite = () => {
                 </span>
               </h1>
               <p className="text-xl text-gray-700 mb-6 md:mb-8 max-w-lg"></p>
-              <button
-                onClick={() => setIsContactOpen(true)}
+              <Link
+                to="/join"
                 className="px-8 py-3 bg-[#121212] text-white font-bold tracking-wide hover:bg-[#F5A623] transition-colors duration-300"
               >
                 JOIN THE COLLABORATIVE
-              </button>
+              </Link>
             </div>
           </div>
         </div>
