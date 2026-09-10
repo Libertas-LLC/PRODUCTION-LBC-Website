@@ -6,7 +6,7 @@ import SiteFooter from "../components/SiteFooter";
 const behaviors: { term: string; text: string }[] = [
   {
     term: "Generous Collaboration.",
-    text: "We freely share our insights, experiences, and challenges to help one another grow. This group prioritizes contribution over comparison. We show up with open hands, not closed fists.",
+    text: "We freely share our insights, experiences, and challenges to help one another grow. This group prioritizes collaboration over competition. We show up with open hands, not closed fists.",
   },
   {
     term: "Relational over Transactional.",
@@ -18,7 +18,7 @@ const behaviors: { term: string; text: string }[] = [
   },
   {
     term: "Grace and Truth.",
-    text: "We care for one another and we are there when someone needs us. We also tell each other the truth we need to grow. Grace makes it safe to be honest. Truth makes the honesty worth something. We hold both.",
+    text: "We care for one another and we are there when someone needs us. We also tell each other the truth we need to grow. Grace makes it safe to be honest. Truth makes the honesty worth something.",
   },
   {
     term: "For Each Other.",
@@ -113,7 +113,7 @@ const Ethos = () => (
 
         <div className="mt-12 space-y-6 text-lg text-gray-800 leading-relaxed">
           <p>
-            This is my badge and my standard. I will hold it, and I will help
+            This is my standard. I will hold it, and I will help
             the Collaborators around me hold it too.
           </p>
           <p>When the threads are strong, the community is too.</p>

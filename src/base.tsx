@@ -19,8 +19,8 @@ const LbcWebsite = () => {
         "Before entering our new business endeavor in Frederick, CO, we were welcomed and greeted at the local farmers market by some of the kindest and already established small town business owners... overnight became a family of force.",
         "Opening a business is never as easy as one would think and through the connection, inclusion and transparency of those new friendships... we were able to build a network of trust. Never doubt the strength of the community around you.",
       ],
-      author: "Isaac Olson & Shane Stinn",
-      role: "Owners of 2025 Frederick Small Business of the Year, MECO Coffee Collective",
+      author: "Isaac Olson",
+      role: "Owner of 2025 Frederick Small Business of the Year, MECO Coffee Collective",
     },
     {
       image: "/Assets/DMC-1-16.jpg",
@@ -205,10 +205,10 @@ const LbcWebsite = () => {
                   Entrepreneurs are the{" "}
                 </span>
                 <span style={{ color: colors.blueGrey }}>threads</span>
-                <span style={{ color: colors.orange }}>
-                  {" "}
-                  that hold the fabric of a town together
-                </span>
+                  <span style={{ color: colors.orange }}>
+                    {" "}
+                    that hold the fabric of a community together
+                  </span>
               </h1>
               <p className="text-xl text-gray-700 mb-6 md:mb-8 max-w-lg"></p>
               <Link
@@ -446,7 +446,7 @@ const LbcWebsite = () => {
             className="text-4xl md:text-5xl font-bold mb-12 text-center"
             style={{ color: "#D47558" }}
           >
-            How to Be Involved at The LBC
+            How to Be Involved at the LBC
           </h2>
 
           <div className="max-w-3xl mx-auto space-y-10">
@@ -467,7 +467,7 @@ const LbcWebsite = () => {
               </h3>
               <p className="text-gray-700 leading-relaxed">
                 A business owner who has made the LBC the home for their business
-                through a private office, semi-private desk, or hot desk. They
+                through a private office, semi-private desk, and hot desk. They
                 anchor the community: the calendar, the culture, and the room.
               </p>
             </div>
@@ -479,7 +479,7 @@ const LbcWebsite = () => {
               <p className="text-gray-700 leading-relaxed">
                 A business leader who owns or works in a business outside of the
                 Carbon Valley region but still wants to help provide education,
-                connection, and recognition to local businesses.
+                connection, and programming to local businesses.
               </p>
             </div>
           </div>
@@ -601,6 +601,7 @@ const LbcWebsite = () => {
               {stories[currentStoryIndex].role}
             </span>
           </div>
+
         </div>
       </section>
       <ThreadStrip />
