@@ -232,6 +232,21 @@ const LbcWebsite = () => {
       </header>
       <ThreadStrip />
 
+      {/* LBC introduction video */}
+      <section className="bg-[#F4F1EA] px-6 py-16 md:py-24">
+        <div className="mx-auto max-w-6xl">
+          <div className="relative overflow-hidden bg-[#121212]" style={{ paddingTop: "56.25%" }}>
+            <iframe
+              src="https://player.vimeo.com/video/1225638531?badge=0&autopause=0&player_id=0&app_id=58479"
+              title="Meet the LBC"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              className="absolute inset-0 h-full w-full"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* The Problem (Images 3 & 4) - Dark Mode */}
       <Section id="the-problem" className="bg-[#121212] text-white pb-12">
         <div className="container mx-auto px-6">
