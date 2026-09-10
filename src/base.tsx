@@ -8,7 +8,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 const LbcWebsite = () => {
   const [isContactOpen, setIsContactOpen] = useState(false);
   const [heroLoaded, setHeroLoaded] = useState(false);
-  const [currentStoryIndex, setCurrentStoryIndex] = useState(0);
+  const [currentStoryIndex, setCurrentStoryIndex] = useState(1);
 
   const stories = [
     {
@@ -233,17 +233,23 @@ const LbcWebsite = () => {
       <ThreadStrip />
 
       {/* LBC introduction video */}
-      <section className="bg-[#F4F1EA] px-6 py-16 md:py-24">
-        <div className="mx-auto max-w-6xl">
-          <div className="relative overflow-hidden bg-[#121212]" style={{ paddingTop: "56.25%" }}>
-            <iframe
-              src="https://player.vimeo.com/video/1225638531?badge=0&autopause=0&player_id=0&app_id=58479"
-              title="Meet the LBC"
-              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              className="absolute inset-0 h-full w-full"
-            />
-          </div>
+      <section className="relative w-full py-4 md:py-6">
+        <img
+          src="/Assets/Background_1.png?v=3"
+          alt=""
+          aria-hidden="true"
+          className="absolute inset-0 h-full w-full object-cover"
+        />
+        <div className="absolute inset-0 bg-[#121212]/10" aria-hidden="true" />
+        <div className="relative mx-auto aspect-video w-full max-w-[1100px] overflow-hidden border border-[#121212]/30 shadow-lg">
+          <iframe
+            src="https://player.vimeo.com/video/1225638531?badge=0&autopause=0&player_id=0&app_id=58479"
+            title="Meet the LBC"
+            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            loading="lazy"
+            className="absolute inset-0 h-full w-full"
+          />
         </div>
       </section>
 
