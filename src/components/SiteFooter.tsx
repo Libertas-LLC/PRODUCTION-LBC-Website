@@ -69,7 +69,10 @@ const SiteFooter = () => (
               </a>
             </li>
             <li className="flex items-center gap-2">
-              <Phone size={16} /> 303-746-0699
+              <Phone size={16} />
+              <a href="tel:3032230723" className="hover:text-[#F5A623] transition-colors">
+                303-223-0723
+              </a>
             </li>
             <li className="flex items-center gap-2">
               <MapPin size={16} /> 501 Walnut St. Frederick, CO 80530
